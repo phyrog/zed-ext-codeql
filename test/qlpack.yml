@@ -1,0 +1,4 @@
+name: zed-ext-codeql
+version: 0.0.1
+dependencies:
+  codeql/go-all: "*"

@@ -1,0 +1,15 @@
+id = "codeql"
+name = "CodeQL"
+version = "0.0.1"
+schema_version = 1
+authors = ["phyrog"]
+description = "CodeQL language extension"
+repository = "https://github.com/phyrog/zed-ext-codeql"
+
+[grammars.ql]
+repository = "https://github.com/tree-sitter/tree-sitter-ql"
+rev = "1fd627a4e8bff8c24c11987474bd33112bead857"
+
+[language_servers.codeql-language-server]
+name = "CodeQL Language Server"
+languages = ["CodeQL"]
